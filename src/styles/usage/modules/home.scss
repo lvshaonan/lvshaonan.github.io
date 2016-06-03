@@ -1,0 +1,226 @@
+header{
+    height: .44rem;
+    background-color: #fdfdfd;
+    @include border(0 0 1px 0, #ae978c, solid);
+    @include box-sizing(content-box);
+    ul{
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        li{
+           text-align: center;
+           font-size: .13rem;
+           @include flex();
+           color: #6bb035;
+           &:first-child{
+               span{
+                   i{
+                       display: inline-block;
+                       width: .09rem;
+                       height: .05rem;
+                       img{
+                           width: 100%;
+                       }
+                   }
+               }
+           }
+           &:nth-child(2){
+               @include flex(4);
+               font-size: .18rem;
+           } 
+           button{
+               width: .38rem;
+               height: .24rem;
+               background-color: #b9e649;
+               color: #6b8e14;
+               border: none;
+           }
+        }
+    }
+}
+section{
+    @include flex();
+    width: 100%;
+    overflow: hidden;
+    .bannerBar{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    nav{
+        width: 100%;
+        height: 1.27rem;
+        @include border(0 0 1px 0, #f0f0f0);
+        ul{
+            @include flexbox();
+            width: 100%;
+            padding-top: .05rem;
+            padding-bottom: .03rem;
+            height: .53rem;
+            li{
+                @include flex();
+                position: relative;
+                height: 100%;
+                img{
+                    height: .53rem;
+                    position: absolute;
+//                      top: 50%;
+                    left: 50%;
+                    @include transform(translate(-50%, 0));
+                }
+            }
+        }
+    }
+    .reg_box{
+        height: .81rem;
+        span{
+            display: block;
+            height: .31rem;
+            line-height: .31rem;
+            text-indent: .27rem;
+            font-size: .13rem;
+            letter-spacing: .005rem;
+            i{
+                font-style: italic;
+                color: #ff5b3b;
+                font-weight: bold;
+                padding-left: .10rem;
+            }
+        }
+        .reg_btn{
+            height: .5rem;
+            background-color: #b9e649;
+            text-align: center;
+            font-size: .14rem;
+            color: #5a7812;
+            line-height: .5rem;
+        }
+    }
+    .serveItem{
+        background-color: #f0f0f0;
+        padding: .1rem 0;
+        li{
+            background-color: #fff;
+            height: .49rem;
+            margin-top: .11rem;
+            line-height: .49rem;
+            padding-left: .13rem;
+            font-size: .13rem;
+            color: #535353;
+            letter-spacing: .005rem;
+            div{
+                @include border(0 0 0 1px, #f0f0f0);
+                @include box-sizing(content-box);
+                padding-left: .14rem;
+                height: 100%;
+                position: relative;
+                em{
+                    display: block;
+                    width: .13rem;
+                    height: .13rem;
+                    position: absolute;
+                    top: -0.06rem;
+                    left: -0.06rem;
+                    background: url(/myFirst/images/imb_cb_uncheck.png);
+                    @include background-size(cover);
+                    z-index: 999;
+                    img{
+                        width: 100%;
+                    }
+                }
+                b{
+                    display: block;
+                    width: .07rem;
+                    height: .14rem;
+                    position: absolute;
+                    top: 50%;
+                    right: .07rem;
+                    background: url(/myFirst/images/icon_next.png);
+                    @include background-size(cover);
+                    @include transform(translate(0, -50%));
+                }
+                i{
+                    display: inline-block;
+                    width: .22rem;
+                    height: .22rem;
+                    margin-right: .07rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            &:first-child{
+                height: .89rem;
+                margin: 0;
+                position: relative;
+                font-size: .13rem;
+                p{
+                    height: .44rem;
+                    line-height: .44rem;
+                    i{
+                        display: inline-block;
+                        height: .27rem;
+                        width: .27rem;
+                        margin-left: .08rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .warmMsg{
+                    position: absolute;
+                    width: .69rem;
+                    height: .27rem;
+                    top: 50%;
+                    right: .2rem;
+                    background: url(/myFirst/images/img_delay_seven_disabled.png);
+                    @include background-size(cover);
+                    @include transform(translate(0, -50%));
+                }
+            }
+            &:last-child{
+                padding: 0;
+                ul{
+                    height: 100%;
+                    width: 100%;
+                    @include flexbox();
+                    li{
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        height: 100%;
+                        background-color: #fff;
+                        position: relative;
+                        line-height: .4rem;
+                        b{
+                            display: inline-block;
+                            width: .16rem;
+                            height: .14rem;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        span{
+                            position: absolute;
+                            top: .16rem;
+                            left: 50%;
+                            font-size: .11rem;
+                            @include transform(translate(-50%,0));
+                            color: #ff5b3b;
+                        }
+                        &:nth-child(2){
+                            width: .1rem;
+                            background-color: #f0f0f0 ;
+                        }
+                        &:not(:nth-child(2)){
+                            @include flex();
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

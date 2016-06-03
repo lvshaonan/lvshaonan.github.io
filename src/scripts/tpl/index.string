@@ -1,0 +1,20 @@
+<div class="m-index">
+    <div class="m-index-container"></div>
+    <footer>
+        <ul>
+            <li action-type="switch.view" data-tag="home">
+                <img src="/myFirst/images/img_tab_recover.png"/>
+            </li>
+            <li action-type="switch.view" data-tag="markit">
+            	<img src="/myFirst/images/img_tab_shopping_disabled.png"/>
+            </li>
+            <li action-type="switch.view" data-tag="serve">
+            	<img src="/myFirst/images/img_tab_service_disabled.png"/>
+            </li>
+            <li action-type="switch.view" data-tag="my">
+            	<img src="/myFirst/images/img_tab_me_disabled.png"/>
+            </li>
+        </ul>
+    </footer>
+
+</div>

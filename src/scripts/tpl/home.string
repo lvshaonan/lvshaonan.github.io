@@ -1,0 +1,119 @@
+<header>
+    <ul>
+    	<li>
+    		<span>
+    			北京
+    			<i>
+    				<img src="/myFirst/images/img_arrow_down.png"/>
+    			</i>
+    		</span>
+    	</li>
+    	<li>回收废品</li>
+    	<li>
+    		<button>登录</button>
+    	</li>
+    </ul>
+</header>
+<section spa-widget="scroll">
+	<div>
+        <div class="bannerBar">
+		    <div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="/myFirst/images/banner_02.gif"/></div>
+			        <div class="swiper-slide"><img src="/myFirst/images/banner_02.gif"/></div>
+			        <div class="swiper-slide"><img src="/myFirst/images/banner_02.gif"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+        <nav>
+            <ul>
+            	<li>
+            		<img src="/myFirst/images/img_new_mobile.png"/>
+            	</li>
+            	<li>
+            		<img src="/myFirst/images/img_new_clothe.png"/>
+            	</li>
+            	<li>
+            		<img src="/myFirst/images/img_new_bottol.png"/>
+            	</li>
+            	<li>
+            		<img src="/myFirst/images/img_new_cans.png"/>
+            	</li>
+            </ul>
+            <ul>
+            	<li>
+            		<img src="/myFirst/images/img_new_pager.png"/>
+            	</li>
+            	<li>
+            		<img src="/myFirst/images/img_new_electronic.png"/>
+            	</li>
+            	<li>
+            		<img src="/myFirst/images/img_new_bag.png"/>
+            	</li>
+            	<li>
+            		<img src="/myFirst/images/img_new_more.png"/>
+            	</li>
+            </ul>
+        </nav>
+        <div class="reg_box">
+            <span>注册后开启回收服务<i>成为环保达人</i></span>
+            <div class="reg_btn">立即注册</div>
+        </div>
+        <ul class="serveItem">
+            <li>
+            	<div>
+            		<em></em>
+            		<p>星期一回收废品<i><img src="/myFirst/images/image_icon_shou.png"/></i></p>
+            		<p>星期一配送商品<i><img src="/myFirst/images/image_icon_song.png"/></i></p>
+            		<div class="warmMsg"></div>
+	            	<b></b>
+            	</div>
+            </li>
+            <li>
+            	<div>
+            		<em></em>
+            		<i><img src="/myFirst/images/img_recycling_phone_disabled.png"/></i>
+            		预约回收-智能手机
+            		<b></b>
+            	</div>
+            </li>
+            <li>
+            	<div>
+            		<em></em>
+            		<i><img src="/myFirst/images/img_recycling_home_appliances_disabled.png"/></i>
+            		预约回收-旧家电
+	            	<b></b>
+            	</div>
+            </li>
+            <li>
+            	<div>
+            		<em></em>
+            		<i><img src="/myFirst/images/img_recycling_waste_disabled.png"/></i>
+            		预约回收-废品
+	            	<b></b>
+            	</div>
+            </li>
+            <li>
+            	<ul>
+            		<li>
+            			<b>
+            				<img src="/myFirst/images/btn_account_balance_pressed.png"/>
+            			</b>
+            			账户余额
+            			<span>00</span>
+            		</li>
+            		<li></li>
+            		<li>
+            			<b>
+            				<img src="/myFirst/images/img_activity.png"/>
+            			</b>
+            			活动
+            			<span>我的回收大数据</span>
+            		</li>
+            	</ul>
+            </li>
+        </ul>
+    </div>
+</section>
