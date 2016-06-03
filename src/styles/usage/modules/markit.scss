@@ -116,74 +116,70 @@
         width: 100%;
         .banner{
             width: 100%;
-            height: 1.57rem;
+            height: 100%;
             img{
                 width: 100%;
             }
         }
         .hot-top{
-            height: 1.7rem;
             @include border(0 0 1px 0, #ddd);
             @include box-sizing(border-box);
-            i{
-                font-style: italic;
-            }
             ul{
                 height: 100%;
                 @include flexbox();
                 li{
-                    text-align: center;
-                    h3{
-                        font-size: .16rem;   
-                        color: #f16856;
-                        margin-top: .09rem;
-                    }
-                    p{
-                        transform: scale(.833333);
-                        &:last-child{
-                            //transform: scale(.9);
-                        }
-                        i{
-                            font-size: .18rem;
-                            color: #ff4f34;
-                        }
-                        small{
-                            font-size: .12rem;
-                            transform: scale(.41666);
-                        }
-                    }
-                    @include flex();
                     &:nth-child(2){
                         @include border(0 1px 0 1px, #ddd);
-                        @include box-sizing(border-box);
+                    }
+                    @include flex();
+                    img{
+                        width: 100%;
                     }
                 }
-                
             }
         }
-    }
-    footer{
-        height: .49rem;
-        @include border(1px 0 0 0, #a8a8a8);
-        ul{
-            width: 100%;
-            height: 100%;
-            @include flexbox();
-            @include align-items(center);
-            @include justify-content(center);
-            overflow: hidden;
-            li{
-                @include flex();
-                position: relative;
-                height: 100%;
-                img{
-                    width: 72%;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    @include transform(translate(-50%, -50%));
+        .hot-good{
+            padding-top: .07rem;
+            .hot-good-tit{
+                padding: 0 .06rem;
+                height: .38rem;
+                ul{
+                    @include flexbox();
+                    height: 100%;
+                    @include border(1px, #b9e649, solid, 5px);
+                    li{
+                        height: 100%;
+                        color: #7abe4e;
+                        font-size: .15rem;
+                        line-height: .38rem;
+                        text-align: center;
+                        @include flex();
+                        &:nth-child(2){
+                            @include border(0 1px 0 1px, #b9e649, solid);
+                        }
+                        &.active{
+                            background-color: #b9e649;
+                            color: #567606;
+                        }
+                    }
+                }
+            }
+            .hot-good-list{
+                ul{
+                    @include border(0 0 1px 0, #ddd, solid);
+                    @include flexbox();
+                    li{
+                        @include flex();
+                        img{
+                            width: 100%;
+                        }
+                        &:first-child{
+                            @include border(0 1px 0 0, #ddd, solid);
+                        }
+                    }
                 }
             }
         }
+        
     }
 }

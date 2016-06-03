@@ -1,8 +1,8 @@
 header{
     height: .44rem;
     background-color: #fdfdfd;
-    @include border(0 0 1px 0, #ae978c, solid);
-    @include box-sizing(content-box);
+    @include box-sizing(border-box);
+    @include border(0 0 1px 0, #ae978c);
     ul{
         width: 100%;
         height: 100%;
@@ -126,7 +126,7 @@ section{
                     left: -0.06rem;
                     background: url(/myFirst/images/imb_cb_uncheck.png);
                     @include background-size(cover);
-                    z-index: 999;
+                    z-index: 9999;
                     img{
                         width: 100%;
                     }
@@ -172,6 +172,7 @@ section{
                 }
                 .warmMsg{
                     position: absolute;
+                    padding: 0;
                     width: .69rem;
                     height: .27rem;
                     top: 50%;

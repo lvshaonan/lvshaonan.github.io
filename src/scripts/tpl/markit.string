@@ -38,45 +38,47 @@
     </nav>
     <section>
     	<div class="banner">
-    		<img src="/myFirst/images/markit_banner_02.gif"/>
+    		<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="/myFirst/images/markit_banner_02.gif"/></div>
+			        <div class="swiper-slide"><img src="/myFirst/images/markit_banner_02.gif"/></div>
+			        <div class="swiper-slide"><img src="/myFirst/images/markit_banner_02.gif"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>  		
     	</div>
     	<div class="hot-top">
     		<ul>
     			<li>
-    				<h3><i>清爽饮料节</i></h3>
-    				<p>缤纷过饮·冰点低价</p>
-    				<img src=""/>
-    				<p>满<i>69</i>减<i>10</i></p>
+    				<img src="/myFirst/images/hot_top_02.gif"/>
     			</li>
     			<li>
-    				<h3><i>全程有机</i></h3>
-    				<p>有机·即刻可追溯</p>
-    				<img src=""/>
-    				<p>圣牧牛奶<small>200ml*12</small><i>38.9</i></p>
+    				<img src="/myFirst/images/hot_top_03.gif"/>
     			</li>
     			<li>
-    				<h3><i>美味看得见</i></h3>
-    				<p>好山·好水·产好果</p>
-    				<img src=""/>
-    				<p>烟台大樱桃<small>2斤</small><i>39.9</i></p>
+    				<img src="/myFirst/images/hot_top_04.gif"/>
     			</li>
     		</ul>
     	</div>
+    	<div class="hot-good">
+    		<div class="hot-good-tit">
+    			<ul>
+    				<li class="active">爆品</li>
+    				<li>搬不动</li>
+    				<li>降到底</li>
+    			</ul>
+    		</div>
+    		<div class="hot-good-list">
+    			<ul>
+    				<li><img src="/myFirst/images/hot_good_02.gif"/></li>
+    				<li><img src="/myFirst/images/hot_good_04.gif"/></li>
+    			</ul>
+    			<ul>
+    				<li><img src="/myFirst/images/hot_good_02.gif"/></li>
+    				<li><img src="/myFirst/images/hot_good_04.gif"/></li>
+    			</ul>
+    		</div>
+    	</div>
     </section>
-    <footer>
-        <ul>
-            <li>
-                <img src="/myFirst/images/img_tab_recover_disabled.png"/>
-            </li>
-            <li>
-            	<img src="/myFirst/images/img_tab_shopping_disabled.png"/>
-            </li>
-            <li>
-            	<img src="/myFirst/images/img_tab_service_disabled.png"/>
-            </li>
-            <li>
-            	<img src="/myFirst/images/img_tab_me_disabled.png"/>
-            </li>
-        </ul>
-    </footer>
 </div>
