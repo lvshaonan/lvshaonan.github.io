@@ -1,20 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-	<meta charset="UTF-8">
-	<title>APP</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-	<link rel="stylesheet" type="text/css" href="/myFirst/prd/styles/usage/app@85d7f1c1a30740dfad9d8545db0b0b1e.css">
-	<script>
-	    document.ontouchmove = function(e) {
-	        if (e.target.tagName.toUpperCase() !== 'IFRAME') {
-	            e.preventDefault();
-	        }
-	    };
-	</script>
+<meta charset="utf-8">
+<title>吕少楠个人简历-HTML5工程师</title>
+<link rel="stylesheet" href="css/ddfullscreenslider.css"/>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/ddfullscreenslider.js"></script>
+<script src="js/index.js"></script>
 </head>
+<!--[if lt IE 9]>
+	<script>
+	!function(body) {
+		body.style.width = body.style.height = '100%';
+		body.parentNode.style.overflow = body.style.overflow = 'hidden';
+	}(document.body);
+	</script>
+	<iframe src="40ie.html" frameborder="0" scrolling="no" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 99999;"></iframe>
+<![endif]-->
 <body>
-	
+<section id="dowebok" class="dd_fullscreenslider">
+	<div class="slidewrapper">
+		<article class="slide">
+			<div class="about">
+				<div class="photo">
+				</div>
+				<div class="person_info">
+					<h2>吕少楠 <br/>
+					<small>HTML5工程师</small></h2>
+					<p>籍贯：河北邯郸</p>
+					<p>毕业院校：石家庄工商职业学院</p>
+					<p>专业：电子商务</p>
+					<p>出生日期：1991年12月30日</p>
+					<p>电话：18513655634</p>
+					<p>邮箱：18513655634@sina.cn</p>
+					<p>到岗时间：离职状态  即可上岗</p>
+				</div>
+			</div>
+		</article>
+		<article class="slide">
+			<div class="skill">
+				<div class="skill_text">
+				<h2>专业技能<br/>
+				<small>professional&nbsp;skill</small></h2>
+				</div>
+				<div class="skill_form">
+					<ul>
+						<li id="list1">
+							<h4>HTML & CSS</h4>
+							<div class="list1_detail">
+								<ul>
+									<li>熟练使用div+css以及html5+css3新特性，根据设计图完成页面制作并解决各主流浏览器的兼容性；</li>
+									<li>熟悉响应式布局和弹性盒布局，基于HTML5的webApp开发以及各种手机移动端适配；</li>
+									<li>能熟练使用Chrome开发者工具、FireBug、Fiddler等工具辅助开发。</li>
+								</ul>
+							</div>
+						</li>
+						<li id="list2">
+							<h4>Javascript</h4>
+							<div class="list2_detail">
+								<ul>
+									<li>对JavaScript基础知识的掌握，包括基本语法以及DOM操作；</li>
+									<li>4，	有基于Ajax的应用开发经验，DOM、JSONP等相关技术，与后台开发工程师协作，完成数据交互展现。</li>
+								</ul>
+							</div>
+						</li>
+						<li id="list3">
+							<h4>jQuery.js&nbsp;Zepto</h4>
+							<div class="list3_detail">
+								<ul>
+									<li>掌握Javascript框架 (如;jQuery,Zepto)进行Web开发；</li>
+								</ul>
+							</div>
+						</li>
+						<li id="list4">
+							<h4>AngularJS</h4>
+							<div class="list4_detail">
+								<ul>
+									<li>了解MVVM规范，熟悉AvalonJS、AngularJS，实时数据绑定及页面渲染；</li>
+								</ul>
+							</div>
+						</li>
+						<li id="list5">
+							<h4>iScroll&nbsp;Swiper</h4>
+							<div class="list5_detail">
+								<ul>
+									<li>熟悉iScroll、Swiper移动端开发框架，快速搭建高质量的SPA应用。</li>
+								</ul>
+							</div>
+						</li>
+						<li id="list6">
+							<h4>gulp&nbsp;svn/git&nbsp;LESS/Sass</h4>
+							<div class="list6_detail">
+								<ul>
+									<li>熟悉使用gulp等前端工程化构建工具，了解seajs等模块开发；</li>
+									<li>熟练使用svn，git版本控制工具；</li>
+									<li>熟练使用LESS、Sass编译css。</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<article class="slide">
+			<div class="work_list">
+				<div class="work_list_title">
+					<h2>工作经历<br/>
+					<small>work&nbsp;experience</small></h2>
+				</div>
+				<div class="work_list_contain">
+					<div class="work_list_point">
+						<div class="work_list_point_bar"></div>
+						<h4>2016年6月</h4>
+					</div>
+					<div class="work_list_detail">
+						<div class="company_name">
+							<img  src="images/jiabologo_01.jpg" />
+							<p><strong>北京嘉博沃德农业发展有限公司——H5开发工程师</strong></p>
+						</div>
+						<div class="company_job">
+							<ul>
+								<li>负责HTML页面以及javascript程序制作；</li>
+								<li>根据产品需求开发相关的Web组件并解决各主流浏览器的兼容性；</li>
+								<li>完成与后端的数据交互。</li>
+							</ul>
+						</div>
+				    </div>
+					<div class="work_list_point">
+						<div class="work_list_point_bar"></div>
+						<p>2015年3月</p>
+					</div>
+				
+					<div class="work_list_detail">
+						<div class="company_name">
+							<img  src="images/200x200_avatar_91.jpg!big.jpg" />
+							<p><strong>北京艾斯科特科技有限公司——前端开发工程师</strong></p>
+						</div>
+						<div class="company_job">
+							<ul >
+								<li>参与切图，HTML、CSS页面结构的搭建；</li>
+								<li>运用Javascript、jQuery进行页面交互。</li>
+							</ul>
+						</div>
+				    </div>
+					<div class="work_list_point">
+						<div class="work_list_point_bar"></div>
+						<h4>2014年4月</h4>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article class="slide">
+			<div class="reason">
+				<div class="reason_title">
+					<h2>为什么我要从事Web前端？</h2>
+				</div>
+				<div class="reason_detail">
+					<div class="reason_tab_contain">
+						<div class="reason_tab_list1">
+							<p>曾经我一直都有一个想法就是做一个自己的网站，大学时虽学习了HTML，但没去深入学习web前端课程。然而毕业工作之后，慢慢增加了对web前端的了解，后续自己下载关于html和css教学视频，同时自学JavaScript知识，并深入了解这个行业。如今才发现，Web前端就是我真正感兴趣的行业。</p>
+						</div>
+						<div class="reason_tab_list2">
+							<p>踏实肯干，勤勉上进，对Hybrid App有极大的兴趣，良好的沟通能力、协调能力和团队合作能力，热爱互联网行业，勇于面对困难和挑战，具备吃苦耐劳精神和良好的职业素质。</p>
+						</div>
+					</div>
+					<div class="reason_tab">
+						<ul>
+							<li id="reason_tab_bar1">兴趣</li>
+							<li id="reason_tab_bar2">自我评价</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article class="slide">
+			<div class="demo">
+				<div class="demo_title">
+					<h2>项目经验<br/>
+					<small>project&nbsp;experience</small></h2>
+				</div>
+				<div class="demo_detail">
+					<div class="demo_list">	
+					<a href="javascript:"><img src="images/uz_icon.png"/></a>
+					<a href="javascript:"><p>纯优选(Web App)</p></a>
+					</div>
+					<div class="demo_list">
+					<a href="javascript:"><img src="images/xiangmu_03.jpg" /></a>
+					<a href="javascript:"><p>嘉博沃德网上商城</p></a>
+					</div>
+				</div>
+			</div>
+		</article>
+		<article class="slide" >
+			<div class="thank">
+				<div class="thank_text">
+					<h2>致谢</h2>
+					<p>非常感谢您花时间阅读我的简历，期待有机会和您共事!</p>
+				</div>
+			</div>
+		</article>
+	</div>
+</section>
 </body>
-<script type="text/javascript" src="/myFirst/prd/scripts/app@70ae10c3ddbb30a28bfe49608d70c4aa.js"></script>
 </html>
